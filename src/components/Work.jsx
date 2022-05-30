@@ -3,7 +3,7 @@ import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
 import ecompic from '../assets/ecommerce-pic.png';
 import movpic from '../assets/movie.png';
-
+import moneypic from '../assets/money.png';
 
 const Work = () => {
   return (
@@ -62,8 +62,6 @@ const Work = () => {
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   <a target="_blank" href=" https://github.com/bensmithcodes/react-movie-api">Code</a>
 
-                    
-                   
                   </button>
                 </a>
               </div>
@@ -71,7 +69,7 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${moneypic})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -80,16 +78,14 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                  <a target="_blank" href="https://main--timely-faun-335a5a.netlify.app/">Demo</a>
+
                   </button>
-                </a>
-                <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                  <a target="_blank" href="https://github.com/bensmithcodes/business-landingpage">Code</a>
+
                   </button>
-                </a>
               </div>
             </div>
           </div>
