@@ -44,7 +44,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${movpic})` }}
+            style={{ backgroundImage: `url(${moneypic})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -55,12 +55,12 @@ const Work = () => {
               <div className='pt-8 text-center'>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  <a target="_blank" href="https://629143f73693c8075a53c129--charming-sundae-74593c.netlify.app/">Demo</a>
+                  <a target="_blank" href="https://main--timely-faun-335a5a.netlify.app/">Demo</a>
                   </button>
                 </a>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  <a target="_blank" href=" https://github.com/bensmithcodes/react-movie-api">Code</a>
+                  <a target="_blank" href=" https://github.com/bensmithcodes/business-landingpage">Code</a>
 
                   </button>
                 </a>
@@ -79,18 +79,18 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  <a target="_blank" href="https://main--timely-faun-335a5a.netlify.app/">Demo</a>
+                  <a target="_blank" href="">Demo</a>
 
                   </button>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  <a target="_blank" href="https://github.com/bensmithcodes/business-landingpage">Code</a>
+                  <a target="_blank" href="">Code</a>
 
                   </button>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${movpic})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -100,9 +100,7 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
+               
                 </a>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
