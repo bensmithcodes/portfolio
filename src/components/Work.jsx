@@ -122,16 +122,10 @@ const Work = () => {
                 React JS Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
                
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   <a target="_blank" href="https://github.com/bensmithcodes/fullstack-blog-project">Code</a>
                   </button>
-              
               </div>
             </div>
           </div>
