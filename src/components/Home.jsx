@@ -14,9 +14,9 @@ const Home = () => {
          I am a web developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a web developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive web applications.
+          I’m a web developer specializing in building and occasionally
+          designing exceptional digital experiences. Currently, I’m focused on
+          building responsive web applications for clients.
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-green-600 hover:border-white-600'>
