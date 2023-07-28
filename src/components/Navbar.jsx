@@ -24,12 +24,12 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={400}>
+          <Link to='home' smooth={true} duration={200}>
             Home
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={400}>
+          <Link to='about' smooth={true} duration={200}>
             About
           </Link>
         </li>
@@ -97,12 +97,12 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-100px] duration-3000 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
-              Linkedin <FaLinkedin size={30} />
+             
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
@@ -115,7 +115,7 @@ const Navbar = () => {
             <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2163E7]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
